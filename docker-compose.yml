@@ -1,0 +1,6 @@
+services:
+  nodejs:
+    build: .
+    command: npm run serve
+    ports:
+      - "3000:3000"
